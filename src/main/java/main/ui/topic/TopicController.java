@@ -16,7 +16,7 @@ public class TopicController {
     @GetMapping("/")
     public String hiPage() throws UnknownHostException {
         String ip = InetAddress.getLocalHost().getHostAddress();
-        return "Hello dudem lastcheck ip is: " + ip;
+        return "Hello ketchup, ip runner is: " + ip;
     }
 
     @GetMapping("/topics")
